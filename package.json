@@ -1,0 +1,30 @@
+{
+  "name": "typescript-study",
+  "version": "1.0.0",
+  "description": "Typescript Study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suwanny/typescript-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suwanny/typescript-study/issues"
+  },
+  "homepage": "https://github.com/suwanny/typescript-study#readme",
+  "dependencies": {
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.9.4",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.16.0",
+    "typescript-eslint-parser": "^22.0.0"
+  }
+}
