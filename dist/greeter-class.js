@@ -6,6 +6,9 @@ class Student {
         // this.fullName = firstName + " " + middleInitial + " " + lastName;
         this.fullName = [firstName, middleInitial, lastName].join(" ");
     }
+    foo() {
+        return 'foo';
+    }
 }
 function greeterWithClass(person) {
     return "Hello, " +
@@ -13,5 +16,6 @@ function greeterWithClass(person) {
         person.lastName;
 }
 let user3 = new Student("Jane", "M.", "User");
+console.log(user3.fullName);
 console.log(greeterWithClass(user3));
 //# sourceMappingURL=greeter-class.js.map
